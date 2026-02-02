@@ -34,7 +34,7 @@ This script also remaps `AltGr` combinations to `Alt` for easier access.
 - `Win + D` = Next desktop
 
 **Everything shortcut + disable Feedback Hub**
-- `Win + F` = F14
+- `Win + F` = F14 (Because Search should be on Win + F imho)
 
 ## Requirements
 
