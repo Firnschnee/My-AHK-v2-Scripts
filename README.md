@@ -17,7 +17,7 @@ This script also remaps `AltGr` combinations to `Alt` for easier access.
 
 **Special Characters (System-wide)**
 - `Alt + Q = @`, `Alt + E = €`, `Alt + M = µ`, etc.
-- `Alt + 7/8/9/0 = { [ ] }`
+- `Alt + 2/3/7/8/9/0/ß/+ = ² ³ { [ ] } \ ~`
 - Works everywhere
 
 **Firefox Tab Navigation**
