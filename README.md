@@ -4,7 +4,7 @@ Collection of AutoHotkey v2 scripts for Windows 11 quality-of-life improvements.
 
 ## The Problem
 
-ISO-DE (QWERTZ) keyboards make many special characters hard to reach:
+ISO-DE (QWERTZ / German) keyboards make many special characters hard to reach:
 - `AltGr + Q = @` is awkward
 - `Ctrl + Z = Undo` instead of `Ctrl + Y` (I mean.. why? It would be so much more easier to reach, right next to `Ctrl + X`, `Ctrl + C` and `Ctrl + V`)
 
