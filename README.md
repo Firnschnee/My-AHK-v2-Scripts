@@ -43,7 +43,6 @@ This script also remaps `AltGr` combinations to `Alt` for easier access.
 
 1. Download `main.ahk`
 2. Run with AutoHotkey v2
-3. Script runs in background (Ctrl + Alt + Esc to exit)
 
 ## License
 MIT License – See [LICENSE](LICENSE) file
