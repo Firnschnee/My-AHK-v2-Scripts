@@ -33,6 +33,9 @@ This script also remaps `AltGr` combinations to `Alt` for easier access.
 - `Win + A` = Previous desktop
 - `Win + D` = Next desktop
 
+**Everything shortcut + disable Feedback Hub**
+- `Win + F` = F14
+
 ## Requirements
 
 - Windows 10+
