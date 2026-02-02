@@ -12,6 +12,9 @@ This script also remaps `AltGr` combinations to `Alt` for easier access.
 
 ## What's included
 
+**Undo-Shortcut-Fix**
+- `Ctrl + Y` = Undo
+
 **Special Characters (System-wide)**
 - `Alt + Q = @`, `Alt + E = €`, `Alt + M = µ`, etc.
 - `Alt + 7/8/9/0 = { [ ] }`
