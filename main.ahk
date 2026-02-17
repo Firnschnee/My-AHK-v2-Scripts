@@ -26,7 +26,7 @@ SendMode "Event"
 !m::Send("µ")
 !sc056::Send("|")     ; < on ISO-DE Layout
 ^y::Send("^z")        ; Ctrl + Y = Undo (Ctrl + Z)
-!#::SendText(chr(96))
+!#::SendText(chr(96)) ; Alt + # = Backtick
 
 ; ============================================
 ; Excel Sheet Navigation
@@ -41,4 +41,5 @@ SendMode "Event"
 ; ============================================
 #f::Send("{F14}")     ; Win + F = F14
 #a::Send("^#{Left}")  ; Win + A = Prev Virtual Desktop
+
 #d::Send("^#{Right}") ; Win + D = Next Virtual Desktop
