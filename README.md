@@ -36,6 +36,9 @@ This script also remaps `AltGr` combinations to `Alt` for easier access.
 **Everything shortcut + disable Feedback Hub**
 - `Win + F` = F14 (Because Search should be on Win + F imho)
 
+**Fast single Backtick deployment :D** 
+- `Alt + #` = ` (Press 1x and get the Backtime once. No need for double press). 
+  
 ## Requirements
 
 - Windows 10+
