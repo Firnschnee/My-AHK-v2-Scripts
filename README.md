@@ -38,6 +38,17 @@ This script also remaps `AltGr` combinations to `Alt` for easier access.
 
 **Fast single Backtick deployment :D** 
 - `Alt + #` = ` (Press 1x and get the Backtime once. No need for double press). 
+
+**Word Dark Theme Fix**
+- `F24` — Workaround for a Word Dark Mode rendering bug (German localization).
+  When using the Black Office theme, the Navigation Pane or Search Results Pane
+  occasionally renders text in black-on-black, making it unreadable. This macro
+  forces a theme cycle (Black → White → Black) to trigger a UI redraw.
+  
+  > German Word only. The Backstage keyboard shortcuts (`Alt+D → T → Y2`) are
+  > localization-specific and will not work in other language versions.
+  
+  Mapped to `MO(1) + F12` via QMK/Vial.
   
 ## Requirements
 
