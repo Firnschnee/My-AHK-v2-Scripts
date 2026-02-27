@@ -46,7 +46,9 @@ SendMode "Event"
 
 #Requires AutoHotkey v2.0
 
-#Requires AutoHotkey v2.0
+; ============================================
+; Word Theme Fix
+; ============================================
 
 F24:: FixWordTheme()
 
@@ -87,3 +89,4 @@ FixWordTheme() {
 
     Send "{Escape}"
 }
+
