@@ -1,6 +1,6 @@
 ## My AHK v2 Scripts
 
-Collection of AutoHotkey v2 scripts for Windows 11 quality-of-life improvements.
+Collection of my AutoHotkey v2 scripts for Windows 11 quality-of-life improvements.
 
 ## The Problem
 
@@ -48,7 +48,11 @@ This script also remaps `AltGr` combinations to `Alt` for easier access.
   > German Word only. The Backstage keyboard shortcuts (`Alt+D → T → Y2`) are
   > localization-specific and will not work in other language versions.
   
-  Mapped to `MO(1) + F12` via QMK/Vial.
+  I mapped it to `MO(1) + F12` via QMK/Vial.
+
+**Zone-Identifier-Script**
+- `F23` = my [Zone-Identifier-Unlocker-Script](https://github.com/Firnschnee/Zone-Identifier-Unlocker)
+  I mapped it to `MO(1) + F11` via QMK/Vial.
   
 ## Requirements
 
