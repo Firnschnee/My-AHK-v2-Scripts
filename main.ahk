@@ -44,12 +44,6 @@ SendMode "Event"
 
 #d::Send("^#{Right}") ; Win + D = Next Virtual Desktop
 
-#Requires AutoHotkey v2.0
-
-; ============================================
-; Word Theme Fix
-; ============================================
-
 F24:: FixWordTheme()
 
 FixWordTheme() {
@@ -90,3 +84,21 @@ FixWordTheme() {
     Send "{Escape}"
 }
 
+F23:: {
+    explorerPath := GetExplorerPath()
+    if !explorerPath {
+        MsgBox("Kein Explorer-Fenster aktiv.")
+        return
+    }
+    Run('powershell.exe -NoProfile -WindowStyle Hidden -Command "Get-ChildItem -Path \"' . explorerPath . '\" -Recurse | Unblock-File"')
+}
+
+GetExplorerPath() {
+    for window in ComObject("Shell.Application").Windows() {
+        try {
+            if WinActive("ahk_id " . window.HWND)
+                return window.Document.Folder.Self.Path
+        }
+    }
+    return ""
+}
