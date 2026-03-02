@@ -1,6 +1,6 @@
 ## My AHK v2 Scripts
 
-Collection of my AutoHotkey v2 scripts for Windows 11 quality-of-life improvements.
+Collection of my daily AutoHotkey v2 scripts for Windows 11 quality-of-life improvements.
 
 ## The Problem
 
