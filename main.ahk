@@ -43,3 +43,4 @@ SendMode "Event"
 #a::Send("^#{Left}")  ; Win + A = Prev Virtual Desktop
 
 #d::Send("^#{Right}") ; Win + D = Next Virtual Desktop
+

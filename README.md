@@ -1,8 +1,10 @@
 ## My AHK v2 Scripts
 
-Collection of AutoHotkey v2 scripts for Windows 11 quality-of-life improvements.
+Collection of my AutoHotkey v2 scripts for Windows 11 quality-of-life improvements.
 
-## The Problem
+## Main.ahk
+
+### The Problem
 
 ISO-DE (QWERTZ / German) keyboards make many special characters hard to reach:
 - `AltGr + Q = @` is awkward
@@ -10,7 +12,7 @@ ISO-DE (QWERTZ / German) keyboards make many special characters hard to reach:
 
 This script also remaps `AltGr` combinations to `Alt` for easier access.
 
-## What's included
+### What's included
 
 **Undo-Shortcut-Fix**
 - `Ctrl + Y` = Undo
@@ -38,7 +40,26 @@ This script also remaps `AltGr` combinations to `Alt` for easier access.
 
 **Fast single Backtick deployment :D** 
 - `Alt + #` = ` (Press 1x and get the Backtime once. No need for double press). 
+
+## Fix-Word-Theme.ahk
+
+**Word Dark Theme Fix**
+- `F24` — Workaround for a Word Dark Mode rendering bug (German localization).
+  When using the Black Office theme, the Navigation Pane or Search Results Pane
+  occasionally renders text in black-on-black, making it unreadable. This macro
+  forces a theme cycle (Black → White → Black) to trigger a UI redraw.
   
+  > German Word only. The Backstage keyboard shortcuts (`Alt+D → T → Y2`) are
+  > localization-specific and will not work in other language versions.
+  
+  I mapped it to `MO(1) + F12` via QMK/Vial.
+  
+## Zone-Identifier-Unlocker
+
+**Zone-Identifier-Script**
+- `F23` = my [Zone-Identifier-Unlocker-Script](https://github.com/Firnschnee/Zone-Identifier-Unlocker)
+  I mapped it to `MO(1) + F11` via QMK/Vial.
+ 
 ## Requirements
 
 - Windows 10+
@@ -47,7 +68,7 @@ This script also remaps `AltGr` combinations to `Alt` for easier access.
 
 ## Usage
 
-1. Download `main.ahk`
+1. Download `main.ahk` or your desired scripts
 2. Run with AutoHotkey v2
 
 ## License
