@@ -41,8 +41,6 @@ This script also remaps `AltGr` combinations to `Alt` for easier access.
 **Fast single Backtick deployment :D** 
 - `Alt + #` = ` (Press 1x and get the Backtime once. No need for double press). 
 
-## Fix-Word-Theme.ahk
-
 **Word Dark Theme Fix**
 - `F24` — Workaround for a Word Dark Mode rendering bug (German localization).
   When using the Black Office theme, the Navigation Pane or Search Results Pane
@@ -54,12 +52,13 @@ This script also remaps `AltGr` combinations to `Alt` for easier access.
   
   I mapped it to `MO(1) + F12` via QMK/Vial.
   
-## Zone-Identifier-Unlocker
-
 **Zone-Identifier-Script**
 - `F23` = my [Zone-Identifier-Unlocker-Script](https://github.com/Firnschnee/Zone-Identifier-Unlocker)
   I mapped it to `MO(1) + F11` via QMK/Vial.
- 
+
+
+ **Windows Explorer Middle Click opens new active Tab**
+ - `Mousewheel Middle Click` on a Folder opens a new tab and makes it active
 ## Requirements
 
 - Windows 10+
