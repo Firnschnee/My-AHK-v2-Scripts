@@ -1,8 +1,6 @@
-## My AHK v2 Scripts
+### My AHK v2 Scripts
 
-Collection of my AutoHotkey v2 scripts for Windows 11 quality-of-life improvements.
-
-## Main.ahk
+Collection of my AutoHotkey v2 scripts for German keyboard layout issues and Windows 11 quality-of-life improvements, now merged into one big file. 
 
 ### The Problem
 
@@ -56,9 +54,9 @@ This script also remaps `AltGr` combinations to `Alt` for easier access.
 - `F23` = my [Zone-Identifier-Unlocker-Script](https://github.com/Firnschnee/Zone-Identifier-Unlocker)
   I mapped it to `MO(1) + F11` via QMK/Vial.
 
-
- **Windows Explorer Middle Click opens new active Tab**
- - `Mousewheel Middle Click` on a Folder opens a new tab and makes it active
+**Windows Explorer Middle Click opens new active Tab**
+- `Mousewheel Middle Click` on any Folder inside the Windows Explorer opens a new active tab in the foreground. 
+ 
 ## Requirements
 
 - Windows 10+
